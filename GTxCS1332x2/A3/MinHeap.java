@@ -135,14 +135,6 @@ public class MinHeap<T extends Comparable<? super T>> {
         return to_return;
 
     }
-    
-    // public void printBackingArray(){
-    //     //System.out.println(size);
-    //     for(int i = 0; i < backingArray.length; i++){
-    //         System.out.print(backingArray[i] + " ");
-    //     }
-    //     System.out.println();
-    // }
 
     /**
      * Returns the backing array of the heap.
